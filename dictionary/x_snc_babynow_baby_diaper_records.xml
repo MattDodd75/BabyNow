@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Baby Diaper Records" max_length="40" name="x_snc_babynow_baby_diaper_records" type="collection">
+        <element label="Baby" max_length="32" name="baby" reference="x_snc_babynow_baby_data" type="reference"/>
+        <element label="Comments" max_length="2000" name="comments" type="string"/>
+        <element choice="1" default="wet" label="Diaper State" mandatory="true" max_length="40" name="diaper_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dirty" sequence="0" value="Dirty"/>
+                <element inactive_on_update="false" label="Dry" sequence="0" value="dry"/>
+                <element inactive_on_update="false" label="Wet" sequence="1" value="wet"/>
+                <element inactive_on_update="false" label="Mixed" sequence="2" value="mixed"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <index name="index">
+            <element name="baby"/>
+        </index>
+        <index name="index2">
+            <element name="timestamp"/>
+        </index>
+    </element>
+</database>

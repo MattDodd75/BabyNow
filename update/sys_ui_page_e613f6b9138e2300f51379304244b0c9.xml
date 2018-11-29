@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_snc_babynow_render_gadget_babynow_latest_feed.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <g2:evaluate var="jvar_inc">
+    var inc = new GlideRecord('x_snc_babynow_baby_feeding_records');
+    inc.orderByDesc('timestamp');
+	inc.setLimit(1);
+    inc.setCategory('homepage');
+    inc.query();
+  </g2:evaluate>
+
+  <table border="0" cellspacing="2" cellpadding="0" width="100%">
+      <j2:while test="$[inc.next()]">
+        <j2:set var="jvar_inc_link" value="x_snc_babynow_baby_feeding_records.do?sys_id=$[inc.sys_id]"/>
+        <j2:set var="jvar_inc_list_link" value="x_snc_babynow_baby_feeding_records_list.do"/>
+	<tr>
+	  <td>
+            <a href="$[jvar_inc_link]">
+              <span style="padding-right:10px;"><IMG SRC="images/icons/incidents.gifx"/></span>
+            </a>
+            <a href="$[jvar_inc_link]" class="linked" style="padding-right:10px;">$[inc.baby.name]</a>
+          </td>
+          <td>$[inc.timestamp]</td>
+        </tr>
+      </j2:while>
+    </table>
+</j:jelly>]]></html>
+        <name>render_gadget_babynow_latest_feed</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>matt.dodd@snc</sys_created_by>
+        <sys_created_on>2018-11-29 04:13:35</sys_created_on>
+        <sys_id>e613f6b9138e2300f51379304244b0c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>render_gadget_babynow_latest_feed</sys_name>
+        <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+        <sys_update_name>sys_ui_page_e613f6b9138e2300f51379304244b0c9</sys_update_name>
+        <sys_updated_by>matt.dodd@snc</sys_updated_by>
+        <sys_updated_on>2018-11-29 04:22:24</sys_updated_on>
+    </sys_ui_page>
+</record_update>

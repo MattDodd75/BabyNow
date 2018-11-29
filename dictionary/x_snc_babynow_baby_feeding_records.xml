@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Baby Feeding Records" max_length="40" name="x_snc_babynow_baby_feeding_records" type="collection">
+        <element label="Amount (mL)" max_length="40" name="amount" type="integer"/>
+        <element label="Baby" max_length="32" name="baby" reference="x_snc_babynow_baby_data" type="reference"/>
+        <element label="Comments" max_length="2000" name="comments" type="string"/>
+        <element choice="1" label="Feed Style" max_length="40" name="feed_style" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Nursing" sequence="0" value="nursing"/>
+                <element inactive_on_update="false" label="Bottle" sequence="1" value="bottle"/>
+            </choice>
+        </element>
+        <element choice="1" default="breast" label="Feed Type" max_length="40" name="feed_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Breast" sequence="0" value="breast"/>
+                <element inactive_on_update="false" label="Formula" sequence="1" value="formula"/>
+            </choice>
+        </element>
+        <element label="Left Duration" max_length="40" name="left_duration" type="glide_duration"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Right Duration" max_length="40" name="right_duration" type="glide_duration"/>
+        <element choice="1" label="Start Side" max_length="40" name="start_side" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Left" sequence="0" value="Left"/>
+                <element inactive_on_update="false" label="Right" sequence="0" value="Right"/>
+            </choice>
+        </element>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Total Duration" max_length="40" name="total_duration" read_only="true" type="glide_duration"/>
+        <index name="index">
+            <element name="baby"/>
+        </index>
+        <index name="index2">
+            <element name="timestamp"/>
+        </index>
+    </element>
+</database>

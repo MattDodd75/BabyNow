@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="BabyNow">31eac239130e2300f51379304244b04a</application>
+        <filter/>
+        <name>Baby Data</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_babynow.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>matt.dodd@snc</sys_created_by>
+        <sys_created_on>2018-11-29 01:17:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdeac239130e2300f51379304244b04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Baby Data</sys_name>
+        <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+        <sys_update_name>sys_ui_module_fdeac239130e2300f51379304244b04b</sys_update_name>
+        <sys_updated_by>matt.dodd@snc</sys_updated_by>
+        <sys_updated_on>2018-11-29 01:17:57</sys_updated_on>
+        <table>x_snc_babynow_baby_data</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

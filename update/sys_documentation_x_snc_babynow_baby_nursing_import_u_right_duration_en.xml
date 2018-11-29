@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_right_duration" label="Right duration" language="en" table="x_snc_babynow_baby_nursing_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_right_duration</element>
+            <help/>
+            <hint/>
+            <label>Right duration</label>
+            <language>en</language>
+            <name>x_snc_babynow_baby_nursing_import</name>
+            <plural>Right durations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 03:13:49</sys_created_on>
+            <sys_id>7e65ae7d134e2300f51379304244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Right duration</sys_name>
+            <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_babynow_baby_nursing_import_u_right_duration_en</sys_update_name>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 03:13:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

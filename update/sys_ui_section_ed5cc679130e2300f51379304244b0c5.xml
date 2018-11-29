@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ed5cc679130e2300f51379304244b0c5" sys_domain="global" table="x_snc_babynow_baby_diaper_records" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>baby</element>
+            <position>0</position>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_id>795c4a79130e2300f51379304244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_babynow_baby_diaper_records" sys_domain="global" view="Default view">ed5cc679130e2300f51379304244b0c5</sys_ui_section>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_id>f95c4a79130e2300f51379304244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_babynow_baby_diaper_records" sys_domain="global" view="Default view">ed5cc679130e2300f51379304244b0c5</sys_ui_section>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>timestamp</element>
+            <position>2</position>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_id>7d5c4a79130e2300f51379304244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_babynow_baby_diaper_records" sys_domain="global" view="Default view">ed5cc679130e2300f51379304244b0c5</sys_ui_section>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diaper_state</element>
+            <position>3</position>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_id>fd5c4a79130e2300f51379304244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_babynow_baby_diaper_records" sys_domain="global" view="Default view">ed5cc679130e2300f51379304244b0c5</sys_ui_section>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 02:22:17</sys_created_on>
+            <sys_id>8ca9def1134e2300f51379304244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_babynow_baby_diaper_records" sys_domain="global" view="Default view">ed5cc679130e2300f51379304244b0c5</sys_ui_section>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 02:22:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed5cc679130e2300f51379304244b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_babynow_baby_diaper_records</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+            <sys_update_name>sys_ui_section_ed5cc679130e2300f51379304244b0c5</sys_update_name>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

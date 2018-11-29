@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_babynow_baby_feeding_records" version="2" view="RPTbc968fbd13ce2300f51379304244b081">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>timestamp</element>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-29 06:16:09</sys_created_on>
+            <sys_id>352fcf3513026300f51379304244b0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 06:16:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_duration</element>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-29 06:16:09</sys_created_on>
+            <sys_id>b52fcf3513026300f51379304244b0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 06:16:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>amount</element>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-29 06:16:09</sys_created_on>
+            <sys_id>392fcf3513026300f51379304244b0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 06:16:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_babynow_baby_feeding_records</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-29 06:16:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f92fcf3513026300f51379304244b0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_babynow_baby_feeding_records</sys_name>
+            <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_babynow_baby_feeding_records_RPTbc968fbd13ce2300f51379304244b081</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 06:16:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptbc968fbd13ce2300f51379304244b081" name="RPTbc968fbd13ce2300f51379304244b081">70968fbd13ce2300f51379304244b086</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

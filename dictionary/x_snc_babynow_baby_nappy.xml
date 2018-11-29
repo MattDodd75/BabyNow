@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Baby Nappy" max_length="40" name="x_snc_babynow_baby_nappy" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ï»¿Baby" max_length="40" name="u_ï__baby" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Note" label="Note" max_length="40" name="u_note" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time" label="Time" max_length="40" name="u_time" type="string"/>
+    </element>
+</database>

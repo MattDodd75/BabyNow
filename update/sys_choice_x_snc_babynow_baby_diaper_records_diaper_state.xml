@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="diaper_state" table="x_snc_babynow_baby_diaper_records" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diaper_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirty</label>
+            <language>en</language>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <sequence>0</sequence>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:41:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14505e3d130e2300f51379304244b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:41:37</sys_updated_on>
+            <value>Dirty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diaper_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dry</label>
+            <language>en</language>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <sequence>0</sequence>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d5c4a79130e2300f51379304244b03e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <value>dry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diaper_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wet</label>
+            <language>en</language>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <sequence>1</sequence>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d5c4a79130e2300f51379304244b03f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <value>wet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diaper_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mixed</label>
+            <language>en</language>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <sequence>2</sequence>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e95c4a79130e2300f51379304244b040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+            <value>mixed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>diaper_state</element>
+            <name>x_snc_babynow_baby_diaper_records</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:24:14</sys_created_on>
+            <sys_id>655c4a79130e2300f51379304244b03f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>diaper_state</sys_name>
+            <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_babynow_baby_diaper_records_diaper_state</sys_update_name>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:24:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

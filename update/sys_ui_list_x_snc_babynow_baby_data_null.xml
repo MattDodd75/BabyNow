@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_babynow_baby_data" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_snc_babynow_baby_data" element="NULL" name="x_snc_babynow_baby_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1e82f9130e2300f51379304244b00c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:32:00</sys_created_on>
+            <sys_id>e31e82f9130e2300f51379304244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:32:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_of_birth</element>
+            <list_id display_value="x_snc_babynow_baby_data" element="NULL" name="x_snc_babynow_baby_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1e82f9130e2300f51379304244b00c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:32:00</sys_created_on>
+            <sys_id>671e82f9130e2300f51379304244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:32:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sex</element>
+            <list_id display_value="x_snc_babynow_baby_data" element="NULL" name="x_snc_babynow_baby_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1e82f9130e2300f51379304244b00c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:32:00</sys_created_on>
+            <sys_id>e71e82f9130e2300f51379304244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:32:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_snc_babynow_baby_data" element="NULL" name="x_snc_babynow_baby_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1e82f9130e2300f51379304244b00c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:32:00</sys_created_on>
+            <sys_id>6b1e82f9130e2300f51379304244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:32:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_babynow_baby_data</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>matt.dodd@snc</sys_created_by>
+            <sys_created_on>2018-11-29 01:32:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab1e82f9130e2300f51379304244b00c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_babynow_baby_data</sys_name>
+            <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_babynow_baby_data_null</sys_update_name>
+            <sys_updated_by>matt.dodd@snc</sys_updated_by>
+            <sys_updated_on>2018-11-29 01:32:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
