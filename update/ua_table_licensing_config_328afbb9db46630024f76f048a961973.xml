@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_babynow_baby_data</name>
+        <name>x_snc_babynow_baby_diaper_records</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>matt.dodd@snc</sys_created_by>
-        <sys_created_on>2018-11-29 01:17:59</sys_created_on>
-        <sys_id>4aeac239130e2300f51379304244b09d</sys_id>
+        <sys_created_on>2018-11-29 01:20:49</sys_created_on>
+        <sys_id>328afbb9db46630024f76f048a961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_babynow_baby_data</sys_name>
+        <sys_name>x_snc_babynow_baby_diaper_records</sys_name>
         <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
         <sys_policy/>
         <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
-        <sys_update_name>ua_table_licensing_config_4aeac239130e2300f51379304244b09d</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_328afbb9db46630024f76f048a961973</sys_update_name>
         <sys_updated_by>matt.dodd@snc</sys_updated_by>
-        <sys_updated_on>2018-11-29 01:17:59</sys_updated_on>
+        <sys_updated_on>2018-11-29 01:20:49</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

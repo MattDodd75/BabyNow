@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>get_latest_diaper_chng</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var writer = response.getStreamWriter(),
+
+	hdrs = {};
+
+	var x=request.body.data;
+	var message='';
+	var status ='';	
+
+	
+	data={};		
+	
+	//if(x.queryResult.intent.displayName=='baby_diaper_check')
+	{
+		var gr = new GlideRecord("x_snc_babynow_baby_diaper_records");
+		gr.orderByDesc("timestamp");
+		gr.setLimit(1);
+		gr.query();
+		if(gr.next()) {
+			var changeDate = new GlideDateTime(gr.timestamp);
+			var nowDate = new GlideDateTime();
+			var durHours = (nowDate.getNumericValue()-changeDate.getNumericValue())/1000/60/60;
+
+			message="Last changed "+ durHours.toFixed(1) +" hours ago";
+			context='success';
+		}
+	}
+	
+	hdrs['Content-Type'] = 'application/json';
+	response.setStatus(200);
+	response.setHeaders(hdrs);
+	
+	var response_body = {
+		"fulfillmentText": message,
+		"payload":{
+			"google": {
+				"expectUserResponse": true,
+				"richResponse": {
+					"items": [
+						{
+							"simpleResponse": {
+								"textToSpeech": message
+							}
+						}
+					]
+				}
+			}
+		}
+	};
+	writer.writeString(global.JSON.stringify(response_body));
+	//return response_body;
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_babynow/babynow/baby_diaper_check</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/baby_diaper_check</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2018-12-05 04:14:36</sys_created_on>
+        <sys_id>679cedf7db4ee70024f76f048a9619e9</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>get_latest_diaper_chng</sys_name>
+        <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
+        <sys_update_name>sys_ws_operation_679cedf7db4ee70024f76f048a9619e9</sys_update_name>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2018-12-20 02:20:04</sys_updated_on>
+        <web_service_definition display_value="BabyNow">8dfb65f7db4ee70024f76f048a961947</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

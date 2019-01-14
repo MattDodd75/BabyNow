@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>matt.dodd@snc</sys_created_by>
         <sys_created_on>2018-11-29 01:20:48</sys_created_on>
-        <sys_id>abfa0639130e2300f51379304244b064</sys_id>
+        <sys_id>fa8afbb9db46630024f76f048a961964</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Baby</sys_name>
         <sys_package display_value="BabyNow" source="x_snc_babynow">1e43423113ca2300f51379304244b0d3</sys_package>
         <sys_policy/>
         <sys_scope display_value="BabyNow">1e43423113ca2300f51379304244b0d3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_babynow_baby_diaper_records_baby</sys_update_name>
-        <sys_updated_by>matt.dodd@snc</sys_updated_by>
-        <sys_updated_on>2018-11-29 01:20:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-29 09:25:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

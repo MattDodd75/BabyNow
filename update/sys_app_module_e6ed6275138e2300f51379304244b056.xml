@@ -19,6 +19,8 @@
         <query>$pa_dashboard.do?sysparm_dashboard=311ba6b1138e2300f51379304244b04e&amp;sysparm_tab=993b66b1138e2300f51379304244b0e9&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</query>
         <report/>
         <roles/>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>matt.dodd@snc</sys_created_by>
         <sys_created_on>2018-11-29 03:51:34</sys_created_on>

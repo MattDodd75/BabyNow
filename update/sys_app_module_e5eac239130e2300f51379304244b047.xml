@@ -19,6 +19,8 @@
         <query/>
         <report/>
         <roles>x_snc_babynow.user</roles>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>matt.dodd@snc</sys_created_by>
         <sys_created_on>2018-11-29 01:17:57</sys_created_on>

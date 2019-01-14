@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>timestamp</element>
-            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="ba9a33f9db46630024f76f048a961996">f92fcf3513026300f51379304244b0e8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>total_duration</element>
-            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="ba9a33f9db46630024f76f048a961996">f92fcf3513026300f51379304244b0e8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>amount</element>
-            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="70968fbd13ce2300f51379304244b086">f92fcf3513026300f51379304244b0e8</list_id>
+            <list_id display_value="x_snc_babynow_baby_feeding_records" element="NULL" name="x_snc_babynow_baby_feeding_records" parent="NULL" relationship="NULL" sys_domain="global" view="ba9a33f9db46630024f76f048a961996">f92fcf3513026300f51379304244b0e8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -70,7 +70,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-11-29 06:16:09</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptbc968fbd13ce2300f51379304244b081" name="RPTbc968fbd13ce2300f51379304244b081">70968fbd13ce2300f51379304244b086</view>
+            <view display_value="Rptbc968fbd13ce2300f51379304244b081" name="RPTbc968fbd13ce2300f51379304244b081">ba9a33f9db46630024f76f048a961996</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
